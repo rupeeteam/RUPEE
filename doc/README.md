@@ -1,8 +1,9 @@
-RUPEE 0.8.x BETA
+RUPEE 0.8.x 
 ====================
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2011-2014 RUPEE Developers
+Copyright © 2009-2017 Bitcoin Developers
+Copyright © 2011-2016 The Litecoin Core Developers
+Copyright © 2017 RUPEE Developers
 
 Distributed under the MIT/X11 software license, see the accompanying
 file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -30,7 +31,7 @@ Unpack the files into a directory and run:
 - bin/64/rupee-qt (GUI, 64-bit)
 - bin/64/rupeed (headless, 64-bit)
 
-See the documentation at the [RUPEE Wiki](http://rupee.info)
+See the documentation at the [RUPEE Wiki](https://rupeeblockchain.org)
 for help and more information.
 
 

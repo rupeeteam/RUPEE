@@ -1,24 +1,20 @@
 RUPEE integration/staging tree
 ================================
 
+https://rupeeblockchain.org
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2017-RUPEE Developers
+Copyright © 2009-2017 Bitcoin Developers
+Copyright © 2011-2016 The Litecoin Core Developers
+Copyright © 2017 RUPEE Developers
 
 What is RUPEE?
 ----------------
 
 RUPEE is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
- - 5 minute block targets
- - subsidy halves in 840k blocks (~4 years)
+ - 2.5 minute block targets
+ - subsidy halves in 640k blocks (~3 years)
  - ~84 million total coins
-
-The rest is the same as Bitcoin.
  - 50 coins per block
- - 2016 blocks to retarget difficulty
-
-For more information, as well as an immediately useable, binary version of
-the RUPEE client sofwar
 
 License
 -------
@@ -44,7 +40,7 @@ match the project's coding conventions (see `doc/coding.txt`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/rupee-project/rupee/tags) are created
+completely stable. [Tags](https://github.com/rupeedigitalassets/rupee) are created
 regularly to indicate new official, stable release versions of RUPEE.
 
 Testing
@@ -66,7 +62,7 @@ Unit tests for the core code are in `src/test/`. To compile and run them:
 
 Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
 
-    qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+    qmake BITCOIN_QT_TEST=1 -o Makefile.test RUPEE-qt.pro
     make -f Makefile.test
     ./rupee-qt_test
 
